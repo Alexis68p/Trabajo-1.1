@@ -1,0 +1,15 @@
+
+palabras = ["python", "programacion", "desarrollo", "codigo", "inteligencia", "artificial"]
+
+
+palabra_mas_larga = palabras[0]
+
+
+for palabra in palabras:
+   
+    if len(palabra) > len(palabra_mas_larga):
+        
+        palabra_mas_larga = palabra
+
+
+print("La palabra más larga de la lista es:", palabra_mas_larga)

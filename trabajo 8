@@ -1,0 +1,23 @@
+# Lista de películas
+peliculas = [
+    "El Señor de los Anillos",
+    "Harry Potter",
+    "Pulp Fiction",
+    "Interestelar",
+    "Deadpool"
+]
+
+# Edad del usuario
+edad_usuario = int(input("Ingresa tu edad: "))
+
+# Si el usuario es mayor de 18 años, se le mostrarán todas las películas,
+# de lo contrario, se le mostrarán solo las películas adecuadas para su edad
+if edad_usuario >= 18:
+    print("Lista de películas disponibles:")
+    for pelicula in peliculas:
+        print("-", pelicula)
+else:
+    print("Lista de películas disponibles para menores de 18 años:")
+    for pelicula in peliculas:
+        if pelicula not in ["Pulp Fiction", "Deadpool"]:
+            print("-", pelicula)
