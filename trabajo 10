@@ -1,0 +1,9 @@
+
+total_preguntas = int(input("Ingrese el total de preguntas del examen: "))
+correctas = int(input("Ingrese la cantidad de preguntas con respuestas correctas: "))
+incorrectas = int(input("Ingrese la cantidad de preguntas con respuestas incorrectas: "))
+
+calificacion = (correctas / total_preguntas) * 10
+
+print("La calificación del examen es:", calificacion)
+
