@@ -1,0 +1,15 @@
+ Definimos la lista de números
+numeros = [5, 8, 9, 10, 233]
+
+
+maximo = numeros[0]
+
+
+for numero in numeros:
+
+    if numero > maximo:
+        
+        maximo = numero
+
+
+print("El número más grande de la lista es:", maximo)
