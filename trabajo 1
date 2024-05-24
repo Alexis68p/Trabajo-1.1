@@ -1,0 +1,2 @@
+palabra= input("teclea una palabra")
+print("la palabra tiene", len (palabra),"letra")
